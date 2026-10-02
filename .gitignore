@@ -1,0 +1,27 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# 敏感信息（重要！）
+.env
+*.key
+*.secret
+config_local.py
+
+# 数据/模型文件（按需，向量库、大模型别传）
+*.db
+*.sqlite3
+chroma_db/
+data/
+models/
